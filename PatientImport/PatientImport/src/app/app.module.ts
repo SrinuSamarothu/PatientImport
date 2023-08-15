@@ -7,6 +7,7 @@ import { NavBarComponent } from './ReusableComponents/nav-bar/nav-bar.component'
 import { NewImportsComponent } from './NewImports/new-imports/new-imports.component';
 import { PageTwoComponent } from './NewImports/page-two/page-two.component';
 import { Pendingimports1Component } from './PendingImports/pendingimports1/pendingimports1.component';
+import { CompletedImportsComponent } from './completed-imports/completed-imports.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { Pendingimports1Component } from './PendingImports/pendingimports1/pendi
     NewImportsComponent,
     PageTwoComponent,
     Pendingimports1Component,
+    CompletedImportsComponent,
   ],
   imports: [
     BrowserModule,
