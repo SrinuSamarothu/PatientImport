@@ -4,6 +4,7 @@ import { NewImportsComponent } from './NewImports/new-imports/new-imports.compon
 import { PageTwoComponent } from './NewImports/page-two/page-two.component';
 import { NavBarComponent } from './ReusableComponents/nav-bar/nav-bar.component';
 import { Pendingimports1Component } from './PendingImports/pendingimports1/pendingimports1.component';
+import { CompletedImportsComponent } from './completed-imports/completed-imports.component';
 
 const routes: Routes = [
   // {
@@ -17,6 +18,9 @@ const routes: Routes = [
   },
   {
     path:'PendingImport1', component: Pendingimports1Component
+  },
+  {
+    path:'CompletedImports', component: CompletedImportsComponent
   }
 ];
 

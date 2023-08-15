@@ -1,0 +1,52 @@
+.section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #f8f9fa;
+    border-radius: 2%;
+  }
+  
+  .imp-job{
+    height: 30%;
+  }
+
+  .pat{
+    height: 63%;
+  }
+
+ /* Media query for phone screens */
+@media (max-width: 767px) {
+    
+    #section2{
+        margin-top: 50px;
+    }
+    #section1{
+        margin-bottom: 50px;
+    }
+    
+    .imp-job{
+        height: 40%;
+      }
+    
+  }
+
+  .dropdown-toggle,
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-toggle{
+    background-color: #eb8934; /* Change to your desired background color */
+    color: #ffffff; /* Change to your desired text color */
+}
+
+/* Change checkbox color */
+.form-check-input:checked {
+    background-color:#eb8934; /* Change to your desired color */
+    border-color: #eb8934; /* Change to your desired color */
+  }
+
+.container{
+    margin-top: 5%;
+}
+  
