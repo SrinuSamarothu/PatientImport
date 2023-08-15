@@ -11,15 +11,18 @@
         <li class="nav-item p-2 g-col-10">
           <a class="nav-link " aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item p-2 g-col-10 ">
-          <a class="nav-link active btn" aria-current="page" routerLink="/NewImports">New Imports</a>
-        </li>
-        <li class="nav-item p-2 g-col-6">
-          <a class="nav-link active " aria-current="page" routerLink="/PendingImport1">Pending Imports</a>
-        </li>
-        <li class="nav-item p-2 g-col-6">
-          <a class="nav-link" aria-current="page" href="#">Completed Imports</a>
-        </li>
+        <ul class="nav">
+          <li class="nav-item p-2 g-col-10">
+            <a class="nav-link" routerLink="/NewImports" routerLinkActive="active">New Imports</a>
+          </li>
+          <li class="nav-item p-2 g-col-6">
+            <a class="nav-link" routerLink="/PendingImport1" routerLinkActive="active">Pending Imports</a>
+          </li>
+          <li class="nav-item p-2 g-col-6">
+            <a class="nav-link" routerLink="/CompletedImports" routerLinkActive="active">Completed Imports</a>
+          </li>
+        </ul>
+        
         <!-- <li class="nav-item ml-auto">
             <a class="nav-link" aria-current="page" href="#">Logout</a>
           </li> -->
