@@ -1,0 +1,15 @@
+.item-gap{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+
+.btn{
+    border-bottom: 2px solid black;
+}
+
+.oo{
+    position: relative;
+
+    padding-left: 60%;
+}

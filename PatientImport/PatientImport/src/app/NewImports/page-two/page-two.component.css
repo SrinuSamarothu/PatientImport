@@ -1,0 +1,45 @@
+.main-div{
+    position: relative;
+    display: flex;
+    flex-direction:  row;
+    gap: 7%;
+    padding:  3%;
+    width : 94%;
+}
+
+.site-div{
+    position: relative;
+    display: flex;
+    width :auto;
+    
+}
+
+.details-main-div{
+    position: relative;
+    width : 100%;
+    border: 2px solid rgba(56, 57, 48, 0.6);
+    padding : 4%;
+    padding-top: 1%;
+}
+
+.ok-btn{
+    display: flex;
+    padding-left : 30%;
+}
+
+.cancel-btn{
+    display: flex;
+    padding-left: 10%;
+}
+
+.txt{
+    position: relative;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.import-alert {
+    position: relative;
+    text-align: center;
+    margin : 3%;
+}
