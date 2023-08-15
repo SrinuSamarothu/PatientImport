@@ -4,12 +4,22 @@
     gap: 8%;
 }
 
-.btn{
-    border-bottom: 2px solid black;
-}
 
 .oo{
     position: relative;
 
     padding-left: 60%;
 }
+
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    border-bottom: 2px solid transparent; /* Initially transparent border */
+  }
+  
+  .nav-link.active {
+    border-color: #000000; /* Active link color with bottom border */
+  }
+  
