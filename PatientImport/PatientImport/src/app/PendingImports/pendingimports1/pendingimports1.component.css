@@ -3,17 +3,9 @@
   padding-left: 40%;
 }
 
-.radio-container {
-  display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
-  gap: 20%;
-}
 
-label {
-  display: flex;
-  align-items: center;
-}
+
+
 
 .o[type="radio"] {
   order: 2; /* Reorder the radio buttons */
@@ -72,3 +64,22 @@ label {
 }
 
 
+.radio-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.radio-container label {
+  margin-right: 10px;
+}
+
+.new{
+  margin-left: 100px;
+  width: 150px;
+}
+
+.old{
+  margin-left: 50px;
+}
